@@ -1,0 +1,49 @@
+body {
+	font-size: 0;
+	padding: 50px;
+	background-color: #e0e0e0;
+}
+body input, body button, .book div {
+	font-size: initial;
+}
+body h2 {
+	font-size: 2rem;
+}
+input {
+	width: 50%;
+	display: block;
+	margin: 25px auto;
+	padding: 5px;
+}
+button {
+	display: block;
+	margin: auto;
+	padding: 1rem 2.75rem;
+}
+.book {
+	margin: 50px 0;
+	background-color: #FFF;
+	padding: 40px 0;
+}
+.book .left, .book .right {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+	padding-right: 50px;
+}
+.book .right .preview-link {
+	color: #444;
+	text-decoration: none;
+}
+.book .left {
+	width: 40%;
+	text-align: center;
+}
+.book .preview-link {
+	width: 100%;
+	height: inherit;
+}
+.book .left .preview-link .cover {
+	max-width: 100%;
+	min-width: 50%;
+}
